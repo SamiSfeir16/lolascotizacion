@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lola's Cake</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Montserrat:ital,wght@0,700;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__contenedor">
+
+            <h1 class="header__titulo">Lola's cake</>
+        </div>
+
+    </header>
+
+    <main class="cotizar cotizar__contenedor">
+
+        <form class="formulario">
+
+            <fieldset>
+                <legend>Cotiza tu pedido.</legend>
+
+                <div class="formularios__campos">
+                    <div class="formulario__campo">
+                        <label class="formulario__campo__label" for="ingredientes__select">Seleccione el ingrediente:
+                        </label>
+                        <select class="formulario__campo__select" id="ingredientes__select">
+                            <option value="" disabled selected>--Seleccione--</option>
+                            <!-- <option value="1">Material 1</option>
+                            <option value="2">Material 2</option>
+                            <option value="3">Material 3</option>
+                            <option value="4">Material 4</option>
+                            <option value="5">Material 5</option>
+                            <option value="6">Material 6</option>
+                            <option value="7">Material 7</option> -->
+
+                        </select>
+                    </div>
+
+                    <div class="centrar__botones">
+                        <input class="btn btn__añadir" type="submit" value="Añadir">
+                        <input class="btn btn__limpiar" type="submit" value="Limpiar">
+
+                    </div>
+
+
+                </div>
+
+
+
+            </fieldset>
+
+            <div class="cotizar__calculo">
+
+                <div class="cotizar__calculo__campos">
+
+
+                </div>
+
+
+                <div class="cotizar__calculo__calcular">
+
+                </div>
+
+                <div class="cotizar__calculo__total">
+
+                </div>
+
+            </div>
+        </form>
+    </main>
+    <script src="assets/js/app-min.js"></script>
+    <!-- <script src="assets/js/app.js"></script> -->
+</body>
+
+</html>
